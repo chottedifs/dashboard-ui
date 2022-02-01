@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/app/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/icons/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-md navbar-light bg-light py-1">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="btn btn-default px-3" id="btn-slider" type="button">
+                <i class="fa fa-bars fa-lg"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Sidebar Nav -->
+          <div class="slider shadow-sm" id="sliders">
+              <div class="slider-head">
+                  <div class="d-block pt-4 pb-3 px-3">
+                      <img src="assets/images/user.png" alt="" class="slider-img-user mb-2">
+                      <p class="fw-400 mb-0 1h-1 text-white">Aldi Husadif</p>
+                      <small class="fw-300 text-white">mywork.husadif@gmail.com</small>
+                  </div>
+              </div>
+              <div class="slider-body px-1">
+                <nav class="nav flex-column">
+                    <a class="nav-link px-3 active" href="#">
+                        <i class="fa fa-tachometer fa-lg box-icon"></i>Dashboard
+                    </a>
+                    <a class="nav-link px-3" href="#">
+                        <i class="fa fa-drivers-license fa-lg box-icon"></i>Delivery
+                    </a>
+                    <hr class="soft my-0 bg-white">
+                    <a class="nav-link px-3" href="#">
+                        <i class="fa fa-money fa-lg box-icon"></i>My Wallet
+                    </a>
+                    <hr class="soft my-0 bg-white">
+                    <a class="nav-link px-3" href="#">
+                        <i class="fa fa-sign-out fa-lg box-icon"></i>Logout
+                    </a>
+                </nav>
+              </div>
+          </div>
+          <!-- End Sidebar Nav -->
+
+          <div class="main-pages">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-block bg-white ronded shadow p-3">
+                            <h2>Hello Aldi</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="slider-background" id="sliders-background"></div>
+    <!-- Script Javascript -->
+    <script src="dist/js/jquery.js"></script>
+    <script src="assets/app/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dist/js/main.js"></script>
+</body>
+</html>
